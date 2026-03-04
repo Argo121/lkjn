@@ -1,0 +1,112 @@
+﻿<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Статус платежа</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="screen">
+      <header class="hero">
+        <button class="back-btn" aria-label="Назад">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M15 5 8 12l7 7" />
+          </svg>
+        </button>
+
+        <img
+          class="success-badge-image"
+          src="WhatsApp Image 2026-03-04 at 20.40.23.jpeg"
+          alt=""
+          aria-hidden="true"
+        />
+
+        <p class="status-title">Транзакция успешно проведена</p>
+        <p class="amount">- 125,00 <span class="currency">с</span></p>
+        <p class="method">Перевод по номеру телефона</p>
+      </header>
+
+      <section class="sheet" aria-label="Детали транзакции">
+        <div class="grabber"></div>
+
+        <div class="sheet-head">
+          <h2>Детали транзакции</h2>
+          <button class="share-btn" aria-label="Поделиться">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3v11" />
+              <path d="m8 7 4-4 4 4" />
+              <path d="M5 13v7h14v-7" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="details">
+          <div class="row">
+            <span class="key">Дата и время</span>
+            <span class="value">07.02.2026, 16:16</span>
+          </div>
+          <div class="row">
+            <span class="key">Номер квитанции</span>
+            <span class="value">P0207101658165</span>
+          </div>
+          <div class="row">
+            <span class="key">Оплачено со счета</span>
+            <span class="value">1032120267957681</span>
+          </div>
+          <div class="row">
+            <span class="key">Получатель</span>
+            <span class="value">Аида З.</span>
+          </div>
+          <div class="row">
+            <span class="key">Итого</span>
+            <span class="value">125,00 с</span>
+          </div>
+          <div class="row align-top">
+            <span class="key">Назначение платежа</span>
+            <span class="value multi">
+              Перевод по номеру телефона.
+              <br />
+              996776609750/ Аида З./
+              <br />
+              Сумма 125.00 KGS
+            </span>
+          </div>
+        </div>
+
+        <nav class="actions" aria-label="Действия">
+          <a href="#" class="action">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="4" y="3" width="16" height="18" rx="2" />
+              <path d="M8 8h8M8 12h8M8 16h5" />
+            </svg>
+            <span>Посмотреть квитанцию</span>
+          </a>
+          <a href="#" class="action">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20 11a8 8 0 1 1-2.3-5.7" />
+              <path d="M20 4v7h-7" />
+            </svg>
+            <span>Повторить платеж</span>
+          </a>
+          <a href="#" class="action">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6 3h12a2 2 0 0 1 2 2v16l-8-4-8 4V5a2 2 0 0 1 2-2z" />
+            </svg>
+            <span>Сохранить как шаблон</span>
+          </a>
+        </nav>
+
+        <button class="cta">Назад</button>
+      </section>
+
+      <div class="home-indicator" aria-hidden="true"></div>
+    </main>
+  </body>
+</html>
